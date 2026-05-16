@@ -40,6 +40,17 @@ sudo systemctl restart nginx
 
 ---
 
+## Find all installed services
+
+Installed services.
+
+```bash
+systemctl list-unit-files --type=service
+```
+
+---
+
+
 ## journalctl
 
 View service logs.
@@ -57,3 +68,13 @@ Monitor logs in real time.
 ```bash
 tail -f /var/log/syslog
 ```
+
+## Check installed software using package manager
+
+Installed software.
+
+```bash
+apt list --installed
+```
+
+---
