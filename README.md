@@ -26,6 +26,14 @@ linux-for-devops/
 │
 ├── README.md
 │
+├── fundamentals/
+│   ├── linux-architecture.md
+│   ├── linux-file-system-structure.md
+│   ├── kernel-overview.md
+│   ├── boot-process.md
+│   ├── shell-basics.md
+│   └── package-management.md
+│
 ├── linux-commands/
 │   ├── file-commands.md
 │   ├── user-management.md
@@ -36,6 +44,28 @@ linux-for-devops/
 │   ├── shell-scripting.md
 │   ├── archive-compression.md
 │   └── system-services.md
+│
+├── advanced-linux/
+│   ├── systemd.md
+│   ├── logs-monitoring.md
+│   ├── disk-management.md
+│   ├── ssh-and-security.md
+│   ├── scheduling-cron.md
+│   ├── performance-tuning.md
+│   ├── storage-lvm.md
+│   └── devops-tools.md
+│
+├── devops-integration/
+│   ├── linux-for-docker.md
+│   ├── linux-for-kubernetes.md
+│   ├── ci-cd-basics.md
+│   ├── automation.md
+│   └── infrastructure-basics.md
+│
+├── interview-prep/
+│   ├── linux-interview-questions.md
+│   ├── troubleshooting-scenarios.md
+│   └── real-world-use-cases.md
 ```
 
 ---
