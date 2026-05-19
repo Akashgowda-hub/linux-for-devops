@@ -6,14 +6,11 @@ File permissions control access to files and directories in Linux.
 
 ```
 -rwxr-xr-x  1 user group
-│││││││││   │
-││└─┬─┘││   └─ Hard link count
-││  │  ││
-││  │  └┴─ Group permissions (r-x)
-││  │
-││  └────── Owner permissions (rwx)
-│└────────── File type (-=regular, d=directory, l=link)
-└─────────── Others permissions (r-x)
+│││││││││
+│││││││└┴── Others permissions (r-x)
+│││└┴┴───── Group permissions (r-x)
+│└┴┴──────── Owner permissions (rwx)
+└─────────── File type (- = regular file)
 ```
 
 **Permissions breakdown:**
