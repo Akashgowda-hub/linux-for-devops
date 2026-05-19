@@ -6,9 +6,9 @@ File permissions control access to files and directories in Linux.
 
 ```
 -rwxr-xr-x  1 user group
-│││││││││
-│││││││└┴── Others permissions (r-x)
-│││└┴┴───── Group permissions (r-x)
+││││││││││
+│││││││└┴┴── Others permissions (r-x)
+│││|└┴┴───── Group permissions (r-x)
 │└┴┴──────── Owner permissions (rwx)
 └─────────── File type (- = regular file)
 ```
